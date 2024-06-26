@@ -47,6 +47,7 @@ function handleImageClick(event) {
     if (votingRounds === 0) {
       imgContainer.removeEventListener('click', handleImageClick);
       state.saveToLocalStorage();
+      console.log("check result");
     }
   }
 }
